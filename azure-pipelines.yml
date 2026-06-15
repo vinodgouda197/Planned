@@ -17,9 +17,9 @@ stages:
         packageType: 'sdk'
         version: '8.x'
     - script: |
-        dotnet restore PlannedNet/PlannedNet/PlannedNet.csproj
-        dotnet build --configuration Release PlannedNet/PlannedNet/PlannedNet.csproj
-        dotnet test --configuration Release PlannedNet/PlannedProj.Tests/PlannedProj.Tests.csproj
+        dotnet restore PlannedNet/PlannedNet/PlannedNet/PlannedNet.csproj
+        dotnet build --configuration Release PlannedNet/PlannedNet/PlannedNet/PlannedNet/PlannedNet.csproj
+        dotnet test --configuration Release PlannedNet/PlannedNet/PlannedProj.Tests/PlannedProj.Tests.csproj
       displayName: 'Restore, Build and Test Backend'
 
 - stage: BuildFrontend
