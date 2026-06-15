@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-dashboard',
@@ -17,7 +18,7 @@ export class DashboardComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any>('https://localhost:44332/api/dashboard/data', { withCredentials: true }).subscribe({
+    this.http.get<any>(`${environment.apiBaseUrl}/dashboard/data`, { withCredentials: true }).subscribe({
       next: (res) => {
         this.serverMessage = res.secureMessage;
       },
