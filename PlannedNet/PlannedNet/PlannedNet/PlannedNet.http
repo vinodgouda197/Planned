@@ -1,0 +1,6 @@
+@PlannedNet_HostAddress = http://localhost:5099
+
+GET {{PlannedNet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Planned\\PlannedNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D89760CB-AC9F-4821-8BDD-A28B0022A96C}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D89760CB-AC9F-4821-8BDD-A28B0022A96C}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "PlannedNet\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T20:06:52.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

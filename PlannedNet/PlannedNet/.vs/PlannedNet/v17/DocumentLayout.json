@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F2D7821-59EB-4498-AB30-77D448F3B1EC}|PlannedProj.Tests\\PlannedProj.Tests.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannedproj.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F2D7821-59EB-4498-AB30-77D448F3B1EC}|PlannedProj.Tests\\PlannedProj.Tests.csproj|solutionrelative:plannedproj.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|c:\\project\\planned\\plannednet\\plannednet\\plannednet\\plannednet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{559B03C6-D42A-4471-80AB-C3021AB16CA8}|PlannedNet\\PlannedNet.csproj|solutionrelative:plannednet\\plannednet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\appsettings.json",
+              "RelativeDocumentMoniker": "PlannedNet\\appsettings.json",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\appsettings.json",
+              "RelativeToolTip": "PlannedNet\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-14T14:46:32.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PlannedNet\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:43:39.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PlannedNet\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:42:48.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PlannedNet\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:40:28.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Models\\User.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Models\\User.cs",
+              "RelativeToolTip": "PlannedNet\\Models\\User.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:39:25.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedProj.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "PlannedProj.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedProj.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "PlannedProj.Tests\\UnitTest1.cs",
+              "ViewState": "AQIAABEAAAAgAAAAAAAiwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:36:17.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Program.cs",
+              "RelativeDocumentMoniker": "PlannedNet\\Program.cs",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\Program.cs",
+              "RelativeToolTip": "PlannedNet\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T14:28:04.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlannedNet.csproj",
+              "DocumentMoniker": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\PlannedNet.csproj",
+              "RelativeDocumentMoniker": "PlannedNet\\PlannedNet.csproj",
+              "ToolTip": "C:\\Project\\Planned\\PlannedNet\\PlannedNet\\PlannedNet\\PlannedNet.csproj",
+              "RelativeToolTip": "PlannedNet\\PlannedNet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-14T14:28:45.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+trigger:
+  branches:
+    include:
+      - main
+
+stages:
+- stage: BuildBackend
+  displayName: Build Backend
+  jobs:
+  - job: Backend
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - checkout: self
+    - task: UseDotNet@2
+      inputs:
+        packageType: 'sdk'
+        version: '8.x'
+    - script: |
+        dotnet restore PlannedNet/PlannedNet/PlannedNet.csproj
+        dotnet build --configuration Release PlannedNet/PlannedNet/PlannedNet.csproj
+        dotnet test --configuration Release PlannedNet/PlannedProj.Tests/PlannedProj.Tests.csproj
+      displayName: 'Restore, Build and Test Backend'
+
+- stage: BuildFrontend
+  displayName: Build Frontend
+  dependsOn: BuildBackend
+  jobs:
+  - job: Frontend
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - checkout: self
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '18'
+    - script: |
+        npm ci --prefix PlannedAngular/PlannedProjClient
+        set NODE_OPTIONS=--openssl-legacy-provider
+        npm run build --prefix PlannedAngular/PlannedProjClient
+      displayName: 'Install and Build Angular'
+
+# Optional: Add Azure Web App deployment tasks below (requires service connection and web app name)
+# - task: AzureRmWebAppDeployment@4
+#   inputs:
+#     ConnectionType: 'AzureRM'
+#     azureSubscription: '<your-service-connection>'
+#     appType: 'webApp'
+#     WebAppName: '<your-app-name>'
+#     packageForLinux: '$(System.DefaultWorkingDirectory)/publish'
