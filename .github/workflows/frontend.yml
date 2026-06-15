@@ -1,5 +1,9 @@
 name: Build and Deploy Angular (GitHub Pages)
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches: [ main ]
@@ -16,16 +20,20 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
         working-directory: PlannedAngular/PlannedProjClient
+        run: npm install --legacy-peer-deps
 
       - name: Build (Angular)
+        working-directory: PlannedAngular/PlannedProjClient
         env:
           NODE_OPTIONS: --openssl-legacy-provider
-        run: npm run build --prefix PlannedAngular/PlannedProjClient
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./PlannedAngular/PlannedProjClient/dist/PlannedProjClient
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
